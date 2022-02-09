@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Flex, StoreView } from '@alife/sail/src/index';
 import A from './modules/A';
+import B from './modules/Css';
 
 const isDevelopment = process.env.NODE_ENV === 'development';
 
@@ -38,6 +39,11 @@ const DevUtil = ({ store }) => {
 export default ({ store }) => {
   return (
     <>
+      <Flex fix>
+        <Item flex="">
+          <B />
+        </Item>
+      </Flex>
       <Flex fix>
         <Item flex="">
           <A />
