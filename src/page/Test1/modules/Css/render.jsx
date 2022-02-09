@@ -8,7 +8,8 @@ import styles from './index.module.less';
 import { jsx, css } from '@emotion/react'
 
 // Create a Title component that'll render an <h1> tag with some styles
-const Title = styled.p`
+const Link = styled.a`
+  display: block;
   color: green;
 `;
 
@@ -50,9 +51,9 @@ const Emotion = props => {
 const Render = props => {
   return (
     <Wrapper>
-      <Title>
+      <Link href="https://styled-components.com/">
         Styled Components
-      </Title>
+      </Link>
       <CssModule />
       <JsxStyle />
       <Emotion>emotion</Emotion>
