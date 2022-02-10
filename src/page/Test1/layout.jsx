@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Flex, StoreView } from '@alife/sail/src/index';
+import { Flex, StoreView } from '@alife/sail';
 import A from './modules/A';
 import B from './modules/Css';
 

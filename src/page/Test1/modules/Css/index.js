@@ -1,4 +1,4 @@
-import { connect } from '@alife/sail/src/index';
+import { connect } from '@alife/sail';
 import Render from './render';
 
 const propsFactory = props => {

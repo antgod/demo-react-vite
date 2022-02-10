@@ -1,10 +1,12 @@
 import { defineConfig } from 'vite';
 import reactRefresh from '@vitejs/plugin-react-refresh';
+import { viteCommonjs } from '@originjs/vite-plugin-commonjs'
 import vitePluginImp from 'vite-plugin-imp';
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
+    viteCommonjs(),
     reactRefresh(),
     vitePluginImp({
       libList: [

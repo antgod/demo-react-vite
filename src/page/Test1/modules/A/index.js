@@ -1,4 +1,4 @@
-import { connect } from '@alife/sail/src/index';
+import { connect } from '@alife/sail';
 // import { gets } from '@alife/sail-util';
 import Render from './render';
 

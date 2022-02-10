@@ -1,5 +1,5 @@
 import React from 'react';
-import { Page } from '@alife/sail/src/index';
+import { Page } from '@alife/sail';
 import Layout from './layout';
 import request from './request';
 
