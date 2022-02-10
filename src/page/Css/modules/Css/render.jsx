@@ -15,7 +15,7 @@ const Link = styled.a`
 
 // Create a Wrapper component that'll render a <section> tag with some styles
 const Wrapper = styled.section`
-  padding: 4em;
+  padding: 1em 4em;
   text-align: center;
   background: papayawhip;
 `;
@@ -29,9 +29,9 @@ const CssModule = () => {
 // https://github.com/vercel/styled-jsx
 const JsxStyle = () => (
   <div>
-    <p>JSX Style</p>
+    <p id="p">JSX Style</p>
     <style jsx>{`
-      p {
+      .p {
         color: blue;
       }
     `}</style>

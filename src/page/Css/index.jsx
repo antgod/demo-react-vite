@@ -2,12 +2,13 @@ import React from 'react';
 import { Page } from '@alife/sail';
 import Layout from './layout';
 import request from './request';
+import './index.less';
 
-const Test1 = () => {
+const Test = () => {
   return (
     <Page request={request}>
       <Layout />
     </Page>
   );
 };
-export default Test1;
+export default Test;
